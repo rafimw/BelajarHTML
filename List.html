@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-br from-gray-900 via-slate-800 to-gray-900 min-h-screen flex items-center justify-center p-8">
+
+    <!-- Main Dashboard Wrapper -->
+    <div class="w-full max-w-2xl space-y-6">
+
+        <!-- Page Header -->
+        <header class="border-b border-white/20 pb-4">
+            <h1 class="text-white text-3xl font-bold tracking-widest uppercase">Dashboard</h1>
+            <p class="text-gray-400 text-sm mt-1">List Overview</p>
+        </header>
+
+        <!-- Main Content -->
+        <main class="space-y-6">
+
+            <!-- Unordered List Section -->
+            <section aria-labelledby="ul-heading" class="bg-white/5 border border-white/10 rounded-2xl p-6">
+                <header class="flex items-center gap-3 mb-4">
+                    <span class="w-2 h-2 rounded-full bg-white inline-block" aria-hidden="true"></span>
+                    <h2 id="ul-heading" class="text-white text-lg font-semibold tracking-wide uppercase">
+                        Unordered List (ul)
+                    </h2>
+                </header>
+                <p class="text-gray-500 text-xs mb-4 uppercase tracking-widest">Daftar buah-buahan</p>
+                <ul class="space-y-2" aria-label="Daftar buah-buahan">
+                    <li class="flex items-center gap-3 bg-white/5 hover:bg-white/10 transition rounded-lg px-4 py-3 text-gray-200">
+                        <span class="w-1.5 h-1.5 rounded-full bg-white/60" aria-hidden="true"></span>
+                        Mangga
+                    </li>
+                    <li class="flex items-center gap-3 bg-white/5 hover:bg-white/10 transition rounded-lg px-4 py-3 text-gray-200">
+                        <span class="w-1.5 h-1.5 rounded-full bg-white/60" aria-hidden="true"></span>
+                        Pepaya
+                    </li>
+                    <li class="flex items-center gap-3 bg-white/5 hover:bg-white/10 transition rounded-lg px-4 py-3 text-gray-200">
+                        <span class="w-1.5 h-1.5 rounded-full bg-white/60" aria-hidden="true"></span>
+                        Semangka
+                    </li>
+                    <li class="flex items-center gap-3 bg-white/5 hover:bg-white/10 transition rounded-lg px-4 py-3 text-gray-200">
+                        <span class="w-1.5 h-1.5 rounded-full bg-white/60" aria-hidden="true"></span>
+                        Strawberry
+                    </li>
+                </ul>
+            </section>
+
+            <!-- Ordered List Section -->
+            <section aria-labelledby="ol-heading" class="bg-white/5 border border-white/10 rounded-2xl p-6">
+                <header class="flex items-center gap-3 mb-4">
+                    <span class="w-2 h-2 rounded-full bg-white inline-block" aria-hidden="true"></span>
+                    <h2 id="ol-heading" class="text-white text-lg font-semibold tracking-wide uppercase">
+                        Ordered List (ol)
+                    </h2>
+                </header>
+                <p class="text-gray-500 text-xs mb-4 uppercase tracking-widest">Cara membuat minuman</p>
+                <ol class="space-y-2" aria-label="Langkah-langkah membuat minuman">
+                    <li class="flex items-center gap-4 bg-white/5 hover:bg-white/10 transition rounded-lg px-4 py-3 text-gray-200">
+                        <span class="text-xs font-bold text-white bg-white/20 rounded-full w-6 h-6 flex items-center justify-center shrink-0" aria-hidden="true">1</span>
+                        Buka tutup botol
+                    </li>
+                    <li class="flex items-center gap-4 bg-white/5 hover:bg-white/10 transition rounded-lg px-4 py-3 text-gray-200">
+                        <span class="text-xs font-bold text-white bg-white/20 rounded-full w-6 h-6 flex items-center justify-center shrink-0" aria-hidden="true">2</span>
+                        Tuangkan air ke dalam gelas
+                    </li>
+                    <li class="flex items-center gap-4 bg-white/5 hover:bg-white/10 transition rounded-lg px-4 py-3 text-gray-200">
+                        <span class="text-xs font-bold text-white bg-white/20 rounded-full w-6 h-6 flex items-center justify-center shrink-0" aria-hidden="true">3</span>
+                        Aduk hingga merata
+                    </li>
+                    <li class="flex items-center gap-4 bg-white/5 hover:bg-white/10 transition rounded-lg px-4 py-3 text-gray-200">
+                        <span class="text-xs font-bold text-white bg-white/20 rounded-full w-6 h-6 flex items-center justify-center shrink-0" aria-hidden="true">4</span>
+                        Campurkan gula dan aduk kembali
+                    </li>
+                    <li class="flex items-center gap-4 bg-white/5 hover:bg-white/10 transition rounded-lg px-4 py-3 text-gray-200">
+                        <span class="text-xs font-bold text-white bg-white/20 rounded-full w-6 h-6 flex items-center justify-center shrink-0" aria-hidden="true">5</span>
+                        Minuman siap disajikan
+                    </li>
+                </ol>
+            </section>
+
+        </main>
+
+        <!-- Page Footer -->
+        <footer class="text-center text-gray-600 text-xs tracking-widest uppercase pt-2">
+            <p>&copy; 2025 &mdash; Belajar HTML</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
